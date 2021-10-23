@@ -14,7 +14,7 @@ By the end you should have filled out the following:
 
 # Zero Waste
 
-Description: Do you know how much waste you create in a day? Waste disposal has attracted a lot of attention in recent years, but how can we measure the amount of waste we create? Our goal is to design and compile a website that allows users to record the amount of waste they throw away each day and compare it to existing data to see how much waste reduction they should achieve. We first created a prototype design using Figma, and then implemented it through HTML, CSS and Java Script. In addition to the welcome page and login page, our website also has a personalized dashboard for users, where they can log into their accounts, record their daily waste and see how they compare to the exsisting data.
+Do you know how much waste you create in a day? Waste disposal has attracted a lot of attention in recent years, but how can we measure the amount of waste we create? Our goal is to design and compile a website that allows users to record the amount of waste they throw away each day and compare it to existing data to see how much waste reduction they should achieve. We first created a prototype design using Figma, and then implemented it through HTML, CSS and Java Script. In addition to the welcome page and login page, our website also has a personalized dashboard for users, where they can log into their accounts, record their daily waste and see how they compare to the exsisting data.
 
 
 
