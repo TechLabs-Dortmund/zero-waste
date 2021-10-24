@@ -45,15 +45,36 @@ After successful installation and activation use the following command to run th
 
 You can see a brief overview of how to use the main functionality below
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+#This plots the data into a bar and a pie chart (Python Code)
+```python
+@app.route('/dashboard')
+def index():
+	df = pd.DataFrame({
+		'Fruit': ['Apples', 'Oranges', 'Bananas', 'Apples', 'Oranges', 'Bananas'],
+        'Amount': [4, 1, 2, 2, 4, 5],
+        'City': ['SF', 'SF', 'SF', 'Montreal', 'Montreal', 'Montreal']
+        })
+	fig = px.bar(df, x='Fruit', y='Amount', color='City',    barmode='group')
+	graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+	fig_pie = px.pie(df, values='Amount', names='City', title='')
+	graphJSON2 = json.dumps(fig_pie, cls=plotly.utils.PlotlyJSONEncoder)
+	return render_template('index.html', graphJSON=graphJSON, graphJSON2=graphJSON2)
 ```
-
-  
+#Add this at the bottom of the html doc
+```java
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <script type='text/javascript'>
+      var graphs = {{graphJSON | safe}};
+      Plotly.plot('chart-area',graphs,{});
+      var graphs_pie = {{graphJSON2 | safe}};
+      Plotly.plot('chart-pie',graphs_pie,{});
+    </script>
+```
+#And those two lines at the part where you want the plots to be
+```html
+<div class="chart-pie pt-4 pb-2" id="chart-pie"></div>
+<div class="chart-area" id="chart-area"></div>
+```  
 ## Roadmap
 
 - Created the basic wireframe in order to structure the process of front-end development
