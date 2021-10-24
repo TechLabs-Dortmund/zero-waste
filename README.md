@@ -73,3 +73,4 @@ function App() {
 
   
 
+[ZeroWaste-TechLabs.zip](https://github.com/TechLabs-Dortmund/zero-waste/files/7406261/ZeroWaste-TechLabs.zip)
