@@ -22,14 +22,24 @@ Do you know how much waste you create in a day? Waste disposal has attracted a l
 
 In order to setup the project, please proceed as follows:
 
+Firstly, set up a virtual environment in anaconda (you would have to download anaconda first):
+
 ```bash
-  npm install my-project
+  conda create -n env_zerowaste python=3.8 anaconda -c conda-forge
 ```
+This creates an "environment folder" in which you have to add the code files and then run it in VSCode for example.
 
-After successful installation use the following command to run the project:
+In a virtual anaconda environment use:
 
 ```bash
-  npm run
+  conda activate env_zerowaste
+```
+To activate the environment (Note that in VSCode you should use the command prompt and not windows powersehll).
+
+After successful installation and activation use the following command to run the project:
+
+```bash
+  python sbadmin2.py
 ```
 ## Examples
 
@@ -53,7 +63,7 @@ function App() {
 ## Authors
 
 - [@Marvin](https://github.com/M-H0ppe)
-- [@Amy](https://www.github.com/alice)
+- [@Amy](https://github.com/Chiaaang)
 - [@Samuel](https://www.github.com/alice)
 - [@Ali](https://www.github.com/alice)
 
