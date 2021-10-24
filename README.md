@@ -34,7 +34,7 @@ In a virtual anaconda environment use:
 ```bash
   conda activate env_zerowaste
 ```
-To activate the environment (Note that in VSCode you should use the command prompt and not windows powersehll).
+to activate the environment (Note that in VSCode you should use the command prompt and not windows powershell).
 
 After successful installation and activation use the following command to run the project:
 
@@ -56,16 +56,20 @@ function App() {
   
 ## Roadmap
 
-- Additional browser support
-- Add more integrations
+- Created the basic wireframe in order to structure the process of front-end development
+- Started coding the frontend. Began with the html code and added css later on.
+- Research, clean and structure the Data regarding the waste production in germany
+- Researched possible methods to connect front- and backend -> Decided to use Flask for a simple backend
+- Integrated a bootstrap dashboard using python/anaconda to connect front- and backend
+- Integrated the data and changed the bootstrap design to fit our wireframe
 
   
 ## Authors
 
 - [@Marvin](https://github.com/M-H0ppe)
 - [@Amy](https://github.com/Chiaaang)
-- [@Samuel](https://www.github.com/alice)
-- [@Ali](https://www.github.com/alice)
+- [@Samuel](https://github.com/samrmn)
+- [@Ali](https://www.github.com/...)
 
   
 
