@@ -78,6 +78,6 @@ def index():
 - [@Samuel](https://github.com/samrmn)
 - [@Ali](https://github.com/AliTabesh)
 
- ##Our Project 
+ ## Our Project 
 
 [ZeroWaste-TechLabs.zip](https://github.com/TechLabs-Dortmund/zero-waste/files/7406261/ZeroWaste-TechLabs.zip)
