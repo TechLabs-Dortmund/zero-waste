@@ -69,7 +69,7 @@ function App() {
 - [@Marvin](https://github.com/M-H0ppe)
 - [@Amy](https://github.com/Chiaaang)
 - [@Samuel](https://github.com/samrmn)
-- [@Ali](https://www.github.com/...)
+- [@Ali](https://github.com/AliTabesh)
 
   
 
